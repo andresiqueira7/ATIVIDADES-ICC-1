@@ -10,7 +10,7 @@ O enunciado do problema especifica em termos gerais a relação desejada entre e
 
 _Diz-se que um algoritmo é correto se, para toda instância de entrada, ele parar com saída correta. Dizemos que um Algoritmo correto resolve um problema computacional dado._
 
-![Cormen][def]{width=100px height=100px}
+![alt text](cormen.png){width=100px height0=10px}
 
 > **Referência Bibliográfica**:
 > Cormen, T.; Leiserson, C. & Stein, R. (2012).
@@ -20,6 +20,3 @@ _Diz-se que um algoritmo é correto se, para toda instância de entrada, ele par
 
 
 
-
-
-[def]: /references/cormen.png
