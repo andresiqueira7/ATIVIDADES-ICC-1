@@ -10,5 +10,5 @@ O enunciado do problema especifica em termos gerais a relação desejada entre e
 
 _Diz-se que um algoritmo é correto se, para toda instância de entrada, ele parar com saída correta. Dizemos que um Algoritmo correto resolve um problema computacional dado._
 
-![Cormen](/references/cormen.jpg){width=100px height=100px}
+![Cormen](/references/cormen.png){width=100px height=100px}
 
