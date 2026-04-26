@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="como pesar farinha"/>
+        <attribute name="authors" value="Discente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-01 08:13:53 "/>
+        <attribute name="created" value="RGlzY2VudGU7QlRETC0wMzI3OzIwMjYtMDMtMjQ7IjAzOjQ2OjE5ICI7MjU1NQ=="/>
+        <attribute name="edited" value="RGlzY2VudGU7QlRETC0wMzI3OzIwMjYtMDQtMDE7IjA4OjEzOjUzICI7MjsyNjU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ab, ac, ad, ae, bc, bd, be, cd, ce, de" type="Real" array="False" size=""/>
+            <input variable="ab"/>
+            <input variable="ac"/>
+            <input variable="ad"/>
+            <input variable="ae"/>
+            <input variable="bc"/>
+            <input variable="bd"/>
+            <input variable="be"/>
+            <input variable="cd"/>
+            <input variable="ce"/>
+            <input variable="de"/>
+            <declare name="a, b, c, d, e, s" type="Real" array="False" size=""/>
+            <assign variable="a" expression="((ab + ac + bc) / 2)- bc"/>
+            <assign variable="b" expression="ab - a"/>
+            <assign variable="c" expression="ac - a"/>
+            <assign variable="d" expression="ad - a"/>
+            <assign variable="e" expression="ae - a"/>
+            <assign variable="s" expression="a + b + c + d + e"/>
+            <output expression="ToFixed(s, 2)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
