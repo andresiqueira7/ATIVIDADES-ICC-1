@@ -28,24 +28,15 @@ Cada valor $p$ deve ter 1 casa decimal apenas.
 ### Input
 
 ```txt
-6
-5 5
-10 5
-5 10
-10 10
-2.5 5
-5 2.5
+::include{file=1.in}
+
 ```
 
 ### Output
 
 ```txt
-5.0
-10.0
-2.5
-5.0
-2.5
-10.0
+::include{file=1.out}
+
 ```
 
 # 🚚 Entrega
