@@ -29,14 +29,13 @@ Imprima um único inteiro representando a maior diferença possível entre os qu
 ### Input
 
 ```txt
-4
-3 10 7 1
+::include{file=1.in}
 ```
 
 ### Output
 
 ```txt
-99
+::include{file=1.out}
 ```
 
 ---
@@ -44,14 +43,13 @@ Imprima um único inteiro representando a maior diferença possível entre os qu
 ### Input
 
 ```txt
-5
-2 4 6 8 10
+::include{file=2.in}
 ```
 
 ### Output
 
 ```txt
-96
+::include{file=2.out}
 ```
 
 ---
@@ -59,14 +57,13 @@ Imprima um único inteiro representando a maior diferença possível entre os qu
 ### Input
 
 ```txt
-6
-12 7 3 15 9 1
+::include{file=3.in}
 ```
 
 ### Output
 
 ```txt
-224
+::include{file=3.out}
 ```
 
 ## 📘 Explicação

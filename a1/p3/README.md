@@ -1,62 +1,41 @@
-# 🧠 Clube dos Cinco
+# 🧠 A Diferença Misteriosa
 
+Alice adora brincar com números e recentemente descobriu uma operação interessante: a **diferença dos quadrados** de dois números naturais positivos.
 
-![Clube-Dos-Cinco](Clube-Dos-Cinco.png)
+Dada uma sequência de números naturais positivos $a_1, a_2, \ldots, a_n$, Alice define a **diferença misteriosa** entre dois elementos $a_i$ e $a_j$ como:
 
+$$
+D = a_j^2 - a_i^2
+$$
 
-No Clube dos Cinco são oferecidos três esportes aos associados: tiro com arco, badminton e canoagem.
+Curiosa, ela quer saber qual é a maior diferença misteriosa possível que pode ser obtida a partir de dois elementos distintos da sequência, onde $i \ne j$, e os valores de $a_i$ e $a_j$ devem ser diferentes e pelo entendimento lógico se buscamos a maior diferença misteriosa, então podemos afirma que $a_i < a_j$.
 
-Cada associado pode participar de no máximo dois esportes, mas a administração do clube suspeita que algumas pessoas estejam ultrapassando esse limite.
-
-A fim de descobrir a verdade, perguntaram aos treinadores quantas pessoas estavam frequentando suas aulas, resultando nos seguintes dados:
-
-- O número $A$ de pessoas que praticam tiro com arco;
-- O número $B$ de pessoas que praticam badminton;
-- O número $C$ de pessoas que praticam canoagem.
-
-Além disso, perguntaram aos membros quais esportes eles praticam. Obviamente, os associados que praticam três esportes mentiram, mas considere que outros falaram a verdade.
-
-Os dados dos associados foram resumidos nas seguintes informações:
-
-- O número $D$ de pessoas que praticam tiro com arco e badminton;
-- O número $E$ de pessoas que praticam tiro com arco e canoagem;
-- O número $F$ de pessoas que praticam badminton e canoagem;
-- O número $G$ de pessoas que não praticam nenhum esporte.
-
-Você ficou encarregado da a tarefa de descobrir se a suspeita é verdadeira.
-
-Dados o número $N$ de associados do clube e os números $A, B, C, D, E, F$ e $G$ descritos acima, descubra se existe alguma pessoa que faz três esportes.
+Sua tarefa é ajudá-la a encontrar essa maior diferença misteriosa, dado um conjunto de números naturais distintos.
 
 Desenvolva o algoritmo utilizando o **_Flowgorithm_** que solucione o problema proposto considerando a seguinte Entrada e Saída esperada:
 
 ## 📥 Entrada
 
-A primeira linha contém um inteiros N, representando o número de associados.
+A primeira linha contém um número inteiro $n$ $(2 \leq n \leq 10^5)$, representando o tamanho da sequência.
 
-A segunda linha contém sete inteiros A, B, C, D, E, F e G como descritos no enunciado.
+A segunda linha contém $n$ inteiros distintos $a_1, a_2, \ldots, a_n$ $(1 \leq a_i \leq 10^4)$, representando os elementos da sequência.
 
 ## 📤 Saída
 
-Seu programa deve produzir uma única linha, contendo uma única letra, "S" se algum associado participa de três esportes e "N", caso contrário.
-
-## 🔒 Restrições
-
-- $1 \le N \le 10^4$.
-- $0 \le A, B, C, D, E, F, G \le N$.
+Imprima um único inteiro representando a maior diferença possível entre os quadrados de dois elementos distintos da sequência, ou seja, $D \ge 0$.
 
 ## 🧪 Exemplos
 
 ### Input
 
 ```txt
-7
-4 4 4 1 1 2 0
+::include{file=1.in}
 ```
 
 ### Output
 
 ```txt
-S
+::include{file=1.out}
 ```
 
 ---
@@ -64,14 +43,13 @@ S
 ### Input
 
 ```txt
-8
-4 4 4 1 1 2 0
+::include{file=2.in}
 ```
 
 ### Output
 
 ```txt
-N
+::include{file=2.out}
 ```
 
 ---
@@ -79,45 +57,33 @@ N
 ### Input
 
 ```txt
-10
-4 4 4 1 1 1 1
+::include{file=3.in}
 ```
 
 ### Output
 
 ```txt
-N
+::include{file=3.out}
 ```
 
----
+## 📘 Explicação
 
-### Input
+A maior diferença ocorre entre os elementos 10 e 1:
 
-```txt
-7
-4 4 4 1 1 1 1
-```
+$$
+10^2 - 1^2 = 100 - 1 = 99
+$$
 
-### Output
+## 💡 Observações
 
-```txt
-S
-```
+- Para resolver esse problema com eficiência, é necessário compreender a fórmula de diferença de quadrados:
 
----
+$$
+a_j^2 - a_i^2 = (a_j - a_i)(a_j + a_i)
+$$
 
-### Input
-
-```txt
-10
-4 4 4 0 0 0 1
-```
-
-### Output
-
-```txt
-S
-```
+- A implementação deve ser otimizada para lidar com grandes volumes de entrada, evitando laços aninhados desnecessários.
+- Este enunciado força o competidor a pensar em estratégias para encontrar os dois números mais distantes da sequência, em termos absolutos, e aplicar corretamente a diferença dos quadrados.
 
 # 🚚 Entrega
 
