@@ -35,7 +35,7 @@ Imprima uma linha contendo um inteiro representando o segundo maior número da s
 ### Input
 
 ```txt
-::include{file=1.in}
+::include{file=2.in}
 ```
 
 ### Output
