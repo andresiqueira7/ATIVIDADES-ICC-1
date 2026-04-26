@@ -1,1 +1,44 @@
-a1/p1/README.md
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="p5"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-26 01:36:46 "/>
+        <attribute name="created" value="YW5kcmU7REVTS1RPUC1LUzJQTjIzOzIwMjYtMDQtMjY7IjAxOjE1OjQ2ICI7Mjc2Ng=="/>
+        <attribute name="edited" value="YW5kcmU7REVTS1RPUC1LUzJQTjIzOzIwMjYtMDQtMjY7IjAxOjM2OjQ2ICI7MTsyODc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="0"/>
+            <assign variable="B" expression="0"/>
+            <assign variable="C" expression="0"/>
+            <while expression="A &lt;= 1 or A &gt;= 100">
+                <input variable="A"/>
+            </while>
+            <while expression="B &lt;= 1 or B &gt;= 100">
+                <input variable="B"/>
+            </while>
+            <while expression="C &lt;= 1 or C &gt;= 100">
+                <input variable="C"/>
+            </while>
+            <if expression="(A &gt; B &amp;&amp; A &lt; C) or (A &gt; C &amp;&amp; A &lt; B)">
+                <then>
+                    <output expression="A&amp;&quot; 1&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="(B &gt; A &amp;&amp; B &lt; C) or (B &gt; C &amp;&amp; B &lt; A)">
+                        <then>
+                            <output expression="B&amp;&quot; 2&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="C&amp;&quot; 3&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
