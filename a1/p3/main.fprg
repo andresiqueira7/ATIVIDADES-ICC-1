@@ -1,1 +1,36 @@
-a1/p1/README.md
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="p3"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-25 11:53:50 "/>
+        <attribute name="created" value="YW5kcmU7REVTS1RPUC1LUzJQTjIzOzIwMjYtMDQtMjU7IjExOjE4OjQ4ICI7Mjc3MQ=="/>
+        <attribute name="edited" value="YW5kcmU7REVTS1RPUC1LUzJQTjIzOzIwMjYtMDQtMjU7IjExOjUzOjUwICI7MTsyODcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <declare name="R" type="Integer" array="False" size=""/>
+            <declare name="A, B, C, D, E, F, G" type="Integer" array="False" size=""/>
+            <input variable="N"/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <input variable="D"/>
+            <input variable="E"/>
+            <input variable="F"/>
+            <input variable="G"/>
+            <assign variable="R" expression="( A + B + C - D - E - F ) + G"/>
+            <if expression="R != N">
+                <then>
+                    <output expression="&quot;S&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
