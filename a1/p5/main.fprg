@@ -4,10 +4,10 @@
         <attribute name="name" value="p5"/>
         <attribute name="authors" value="andre"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-04-29 03:42:36 "/>
+        <attribute name="saved" value="2026-04-29 04:10:04 "/>
         <attribute name="created" value="YW5kcmU7REVTS1RPUC1LUzJQTjIzOzIwMjYtMDQtMjY7IjAxOjE1OjQ2ICI7Mjc2Ng=="/>
         <attribute name="edited" value="YW5kcmU7REVTS1RPUC1LUzJQTjIzOzIwMjYtMDQtMjY7IjAxOjM2OjQ2ICI7MTsyODc3"/>
-        <attribute name="edited" value="RGlzY2VudGU7QlRETC0wMzIyOzIwMjYtMDQtMjk7IjAzOjQyOjM2ICI7MjsyNjYw"/>
+        <attribute name="edited" value="RGlzY2VudGU7QlRETC0wMzIyOzIwMjYtMDQtMjk7IjA0OjEwOjA0ICI7MzsyNjUy"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -25,13 +25,13 @@
             <while expression="C &lt;= 1 or C &gt;= 100">
                 <input variable="C"/>
             </while>
-            <if expression="(A &gt; B &amp;&amp; A &lt; C) or (A &gt; C &amp;&amp; A &lt; B)">
+            <if expression="(A &gt; B and A &lt; C) or (A &gt; C and A &lt; B)">
                 <then>
                     <output expression="A" newline="True"/>
                     <output expression="&quot; 1&quot;" newline="False"/>
                 </then>
                 <else>
-                    <if expression="(B &gt; A &amp;&amp; B &lt; C) or (B &gt; C &amp;&amp; B &lt; A)">
+                    <if expression="(B &gt; A and B &lt; C) or (B &gt; C and B &lt; A)">
                         <then>
                             <output expression="B" newline="True"/>
                             <output expression="&quot; 2&quot;" newline="False"/>
