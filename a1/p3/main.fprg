@@ -11,10 +11,10 @@
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="N" type="Integer" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
             <declare name="R" type="Integer" array="False" size=""/>
             <declare name="A, B, C, D, E, F, G" type="Integer" array="False" size=""/>
-            <input variable="N"/>
+            <input variable="n"/>
             <input variable="A"/>
             <input variable="B"/>
             <input variable="C"/>
@@ -23,12 +23,12 @@
             <input variable="F"/>
             <input variable="G"/>
             <assign variable="R" expression="( A + B + C - D - E - F ) + G"/>
-            <if expression="R != N">
+            <if expression="R != n">
                 <then>
                     <output expression="&quot;S&quot;" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;N&quot;" newline="True"/>
+                    <output expression="&quot;n&quot;" newline="True"/>
                 </else>
             </if>
         </body>
