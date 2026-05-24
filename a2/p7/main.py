@@ -1,26 +1,20 @@
 N = int(input(''))
+
 while (N < 1 or N > 1000): 
     N = int(input(''))
     
-lista = []
-    
-for i in range(N):
-    numero = int(input(''))
-    if numero < (-100) or numero > 100:
-        numero = int(input(''))    
+sequencia = list(map(int, input().split()))
 
-    lista.append(numero)
-    
-contador = 0
-i = 0
+if N <= 2:
+    print('1')
+else:
+    qtd_pas = 1
+    razao_atual = sequencia[1] - sequencia[0]
+    for i in range(2, N):
+        razao = sequencia[i] - sequencia[i-1]
+        if razao != razao_atual:
+            qtd_pas += 1
+            razao_atual = razao
 
-while i < N - 2:
-    r = lista[i+1] - lista[i]
-    j = i + 1 
-    while j < N - 1 and lista[j + 1] - lista[j] == r:
-        j += 1
-    if j - i >= 1:
-        contador += 1
-    i = j 
     
-print(contador)
+    print(qtd_pas)
