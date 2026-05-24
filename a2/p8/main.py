@@ -1,6 +1,6 @@
 import math
 
-n = int(input(''))
+n = int(input())
 
 valores = list(map(float, input('').split()))
 media = sum(valores) / n
