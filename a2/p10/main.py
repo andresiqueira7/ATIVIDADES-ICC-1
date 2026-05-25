@@ -27,3 +27,4 @@ for _ in range(T):
         
 for resultado in resultados:
     print(resultado)
+    
