@@ -3,7 +3,7 @@ def MDC(x, y):
   if y == 0:
     return x
   else:
-    return MDC(y, x % y)
+    return MDC(y, x % y) 
   
 a = int(input())
 while a < 1 or a > 1000:
