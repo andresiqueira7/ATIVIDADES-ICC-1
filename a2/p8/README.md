@@ -40,43 +40,14 @@ onde:
 ### Input
 
 ```txt
-::include{file=1.in}
+5
+20.0 22.0 21.0 19.0 20.0
+
 ```
 
 ### Output
 
 ```txt
-::include{file=1.out}
+1.0198
 ```
 
----
-
-### Input
-
-```txt
-::include{file=2.in}
-```
-
-### Output
-
-```txt
-::include{file=2.out}
-```
-
----
-
-### Input
-
-```txt
-::include{file=3.in}
-```
-
-### Output
-
-```txt
-::include{file=3.out}
-```
-
-# 🚚 Entrega
-
-::include{file=../entregaveis.md}
