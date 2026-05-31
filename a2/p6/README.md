@@ -1,5 +1,4 @@
-![Termo_Pitagorico](./termo_pitagorico.png){width=300px}
-
+![Termo_Pitagorico](./termo_pitagorico.png)
 # 🧠 Termo Pitagórico
 
 Faça um programa que calcule o terno pitagórico a, b, c, para o qual $a + b + c = n$.
@@ -22,33 +21,14 @@ Caso não exista solução inteira imprima a mensagem "**Nao existe resposta**".
 ### Input
 
 ```txt
-::include{file=1.in}
+12
 
 ```
 
 ### Output
 
 ```txt
-::include{file=1.out}
+3 4 5
 
 ```
 
----
-
-### Input
-
-```txt
-::include{file=2.in}
-
-```
-
-### Output
-
-```txt
-::include{file=2.out}
-
-```
-
-# 🚚 Entrega
-
-::include{file=../entregaveis.md}
