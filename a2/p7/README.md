@@ -1,4 +1,4 @@
-![Progressão aritmétic](pa-nums.png){height=200px}
+![Progressão aritmétic](pa-nums.png)
 
 # 🧠 Encontrando Progressões Aritméticas
 
@@ -56,43 +56,15 @@ Imprima uma linha contendo um inteiro representando quantas PA's existem na sequ
 ### Input
 
 ```txt
-::include{file=1.in}
+8
+1 1 1 3 5 4 8 12
+
 ```
 
 ### Output
 
 ```txt
-::include{file=1.out}
+4
 ```
 
----
 
-### Input
-
-```txt
-::include{file=2.in}
-```
-
-### Output
-
-```txt
-::include{file=2.out}
-```
-
----
-
-### Input
-
-```txt
-::include{file=3.in}
-```
-
-### Output
-
-```txt
-::include{file=3.out}
-```
-
-# 🚚 Entrega
-
-::include{file=../entregaveis.md}
