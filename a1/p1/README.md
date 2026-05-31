@@ -61,7 +61,7 @@ Seu algoritmo deve imprimir o valor (flutuante com 2 casa decimais) da soma dos 
 ### Input:
 
 ```txt
-::include{file=1.in}
+:include:{file=1.in}
 
 ```
 
