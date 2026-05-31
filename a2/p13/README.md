@@ -13,7 +13,6 @@ Agora, cabe a você implementar o papel do oráculo e resolver esse mistério ma
 ## 🧮 Fórmula
 
 $$\text{mdc}(x, y) = \left\{ \begin{array}{cl} \text{mdc}(x - y, y) & : \ x > y \\ \text{mdc}(y, x) & : \ x < y \\ x & : \ x = y \end{array} \right.$$
-x & : \ x = y
 \end{array} \right.$
 
 ![MDC](./mdc.png)
