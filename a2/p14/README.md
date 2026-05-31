@@ -1,4 +1,4 @@
-![Cartas](./cartas.png){height=150px}
+![Cartas](./cartas.png)
 
 # 🧠 Cartas
 
@@ -29,43 +29,13 @@ Seu programa deve imprimir uma única letra maiúscula em uma linha:
 ### Input
 
 ```txt
-::include{file=1.in}
+1 3 2 4 5
 ```
 
 ### Output
 
 ```txt
-::include{file=1.out}
+N
+
 ```
 
----
-
-### Input
-
-```txt
-::include{file=2.in}
-```
-
-### Output
-
-```txt
-::include{file=2.out}
-```
-
----
-
-### Input
-
-```txt
-::include{file=3.in}
-```
-
-### Output
-
-```txt
-::include{file=3.out}
-```
-
-# 🚚 Entrega
-
-::include{file=../entregaveis.md}
