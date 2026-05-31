@@ -30,6 +30,6 @@ Imprima uma linha contendo um inteiro representando o segundo maior número da s
 ### Output
 
 ```txt
-::include{file=1.out}
+5 2
 ```
 
