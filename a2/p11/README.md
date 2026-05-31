@@ -30,43 +30,13 @@ Seu programa deve imprimir uma linha contendo um número natural representando q
 ### Input
 
 ```txt
-::include{file=1.in}
+6
+
 ```
 
 ### Output
 
 ```txt
-::include{file=1.out}
+28
 ```
 
----
-
-### Input
-
-```txt
-::include{file=2.in}
-```
-
-### Output
-
-```txt
-::include{file=2.out}
-```
-
----
-
-### Input
-
-```txt
-::include{file=3.in}
-```
-
-### Output
-
-```txt
-::include{file=3.out}
-```
-
-# 🚚 Entrega
-
-::include{file=../entregaveis.md}
