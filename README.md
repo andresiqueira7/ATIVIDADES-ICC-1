@@ -1,4 +1,4 @@
-![alt text](icc1.png){width=500px}
+![alt text](icc1.png)
 
 # 2026.1 - Introdução da Ciência da Computação 1
 
