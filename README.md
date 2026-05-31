@@ -1,3 +1,5 @@
+Orientador : Mauricio Moreira
+
 ![alt text](icc1.png)
 
 # 2026.1 - Introdução da Ciência da Computação 1
