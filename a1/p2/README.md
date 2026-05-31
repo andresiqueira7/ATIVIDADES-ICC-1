@@ -47,7 +47,12 @@ Cada valor $p$ deve ter 1 casa decimal apenas.
 ### Output
 
 ```txt
-::include{file=1.out}
+5.0
+10.0
+2.5
+5.0
+2.5
+10.0
 
 ```
 
