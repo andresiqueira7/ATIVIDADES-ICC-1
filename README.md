@@ -1,4 +1,4 @@
-Orientador : Mauricio Moreira
+Orientador : Mauricio Monteiro 👨‍🔬
 
 ![alt text](icc1.png)
 
