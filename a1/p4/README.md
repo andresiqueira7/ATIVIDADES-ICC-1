@@ -40,7 +40,7 @@ Imprima um único inteiro representando a maior diferença possível entre os qu
 ### Output
 
 ```txt
-::include{file=1.out}
+99
 ```
 
 ---
