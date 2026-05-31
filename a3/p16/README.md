@@ -32,49 +32,17 @@ Imprima `"NAO"` caso contrário.
 ### Input
 
 ```txt
-::include{file=1.in}
+4 4
+0 1 0 1
+1 0 1 0
+0 1 0 1
+1 0 1 0
+
 ```
 
 ### Output
 
 ```txt
-::include{file=1.out}
+SIM
 ```
 
----
-
-### Input
-
-```txt
-::include{file=2.in}
-```
-
-### Output
-
-```txt
-::include{file=2.out}
-```
-
----
-
-### Input
-
-```txt
-::include{file=3.in}
-```
-
-### Output
-
-```txt
-::include{file=3.out}
-```
-
-## 🔍 Explicação
-
-- No **primeiro exemplo**, é possível alcançar qualquer dispositivo a partir de qualquer outro. A rede é **conexa**.
-- No **segundo exemplo**, os dispositivos estão divididos em dois grupos que não se conectam entre si. A rede **não é conexa**.
-- No **terceiro exemplo**, é possível alcançar qualquer dispositivo a partir de qualquer outro. A rede é **conexa**.
-
-# 🚚 Entrega
-
-::include{file=../entregaveis.md}
