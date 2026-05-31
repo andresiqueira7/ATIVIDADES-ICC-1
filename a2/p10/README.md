@@ -60,35 +60,7 @@ Para cada caso de teste, imprima uma linha com um único número:
 ### Output
 
 ```txt
-::include{file=1.out}
+11
+337
 ```
-
----
-
-### Input
-
-```txt
-::include{file=2.in}
-```
-
-### Output
-
-```txt
-::include{file=2.out}
-```
-
----
-
-### Input
-
-```txt
-::include{file=3.in}
-```
-
-### Output
-
-```txt
-::include{file=3.out}
-```
-
 
