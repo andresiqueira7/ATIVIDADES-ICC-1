@@ -24,7 +24,7 @@ Sua tarefa é escrever um programa que, dado um quadrado, determine se ele é ma
 
 ## 🧮 Fórmula
 
-![Quadrado Magic](./quadrado_magic.png){height=250px}
+![Quadrado Magic](./quadrado_magic.png)
 
 - Linhas:
 
@@ -87,43 +87,16 @@ Caso contrário, a linha deve conter o número $0$.
 ### Input
 
 ```txt
-::include{file=1.in}
+3
+2 7 6
+9 5 1
+4 3 8
+
 ```
 
 ### Output
 
 ```txt
-::include{file=1.out}
+15
 ```
 
----
-
-### Input
-
-```txt
-::include{file=2.in}
-```
-
-### Output
-
-```txt
-::include{file=2.out}
-```
-
----
-
-### Input
-
-```txt
-::include{file=3.in}
-```
-
-### Output
-
-```txt
-::include{file=3.out}
-```
-
-# 🚚 Entrega
-
-::include{file=../entregaveis.md}
