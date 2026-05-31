@@ -1,5 +1,4 @@
-![set](conjuntos.png){height=300px}
-
+![set](conjuntos.png)
 # 🧠 Numeros de subconjuntos com dois ou mais elementos
 
 Todo número inteiro positivo pode ser escrito como um produto de potências de números primos.
@@ -117,6 +116,3 @@ Seu programa deve produzir uma única linha com um inteiro representando o núme
 0
 ```
 
-# 🚚 Entrega
-
-::include{file=../entregaveis.md}
