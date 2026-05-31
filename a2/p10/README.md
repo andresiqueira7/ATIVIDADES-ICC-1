@@ -51,7 +51,10 @@ Para cada caso de teste, imprima uma linha com um único número:
 ### Input
 
 ```txt
-::include{file=1.in}
+2
+4
+25
+
 ```
 
 ### Output
@@ -88,6 +91,4 @@ Para cada caso de teste, imprima uma linha com um único número:
 ::include{file=3.out}
 ```
 
-# 🚚 Entrega
 
-::include{file=../entregaveis.md}
