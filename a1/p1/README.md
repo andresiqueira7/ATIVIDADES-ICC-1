@@ -78,7 +78,7 @@ Seu algoritmo deve imprimir o valor (flutuante com 2 casa decimais) da soma dos 
 ### Output
 
 ```txt
-::include{file=1.out}
+289.00
 
 ```
 
