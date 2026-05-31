@@ -29,7 +29,12 @@ Imprima um único inteiro representando a maior diferença possível entre os qu
 ### Input
 
 ```txt
-::include{file=1.in}
+4
+3 
+10 
+7 
+1
+
 ```
 
 ### Output
