@@ -18,7 +18,7 @@ $\text{mdc}(x, y) = \left\{ \begin{array}{cl}
 x & : \ x = y
 \end{array} \right.$
 
-![MDC](./mdc.png){height=200px}
+![MDC](./mdc.png)
 
 ## 📥 Entrada
 
@@ -36,43 +36,13 @@ Seu programa deve imprimir uma única linha contendo o valor do **MDC** dos dois
 ### Input
 
 ```txt
-::include{file=1.in}
+36
+24
 ```
 
 ### Output
 
 ```txt
-::include{file=1.out}
+12
 ```
 
----
-
-### Input
-
-```txt
-::include{file=2.in}
-```
-
-### Output
-
-```txt
-::include{file=2.out}
-```
-
----
-
-### Input
-
-```txt
-::include{file=3.in}
-```
-
-### Output
-
-```txt
-::include{file=3.out}
-```
-
-# 🚚 Entrega
-
-::include{file=../entregaveis.md}
