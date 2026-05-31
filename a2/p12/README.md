@@ -43,43 +43,15 @@ As saídas para o seu programa devem ser apresentadas após a leitura de cada co
 ### Input
 
 ```txt
-::include{file=1.in}
+3 3 3
+7 3 3
+
 ```
 
 ### Output
 
 ```txt
-::include{file=1.out}
+VENDA
+ALARME
 ```
 
----
-
-### Input
-
-```txt
-::include{file=2.in}
-```
-
-### Output
-
-```txt
-::include{file=2.out}
-```
-
----
-
-### Input
-
-```txt
-::include{file=3.in}
-```
-
-### Output
-
-```txt
-::include{file=3.out}
-```
-
-# 🚚 Entrega
-
-::include{file=../entregaveis.md}
