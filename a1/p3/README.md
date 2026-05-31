@@ -1,8 +1,8 @@
 # 🧠 Clube dos Cinco
 
-<center>
+
 ![ClubeCinco](ClubeCinco.png)
-</center>
+
 
 No Clube dos Cinco são oferecidos três esportes aos associados: tiro com arco, badminton e canoagem.
 
